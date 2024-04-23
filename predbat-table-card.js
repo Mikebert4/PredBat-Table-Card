@@ -134,7 +134,7 @@ class PredbatTableCard extends HTMLElement {
         
         let isMidnight = false;
         columnsToReturn.forEach((column, index) => { // Use arrow function here
-            console.log(item[column]);
+            //console.log(item[column]);
             if(item[column] !== undefined){
                 if(item["time-column"].value.includes("23:30"))
                     isMidnight = true;
